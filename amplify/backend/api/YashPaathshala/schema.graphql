@@ -1,0 +1,8 @@
+type UserModel @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Fullname: String
+  Email: String
+  Phone: String
+  Jobtitle: String
+  Jobtype: String
+}
